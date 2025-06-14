@@ -1,3 +1,9 @@
+print("Script loaded successfully!")
+game:GetService("StarterGui"):SetCore("SendNotification", {
+    Title = "Grow Garden HUB",
+    Text = "Script initialized!",
+    Duration = 5
+})
 -- Loader.lua
 return function()
     -- Load library UI
